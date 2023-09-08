@@ -4,7 +4,7 @@
 # You can copy this to one of:
 # - "/etc/mysql/my.cnf" to set global options,
 # - "~/.my.cnf" to set user-specific options.
-# 
+#
 # One can use all long options that the program supports.
 # Run program with --help to get a list of available options and with
 # --print-defaults to see which it would actually understand and use.
@@ -57,8 +57,8 @@ myisam-recover-options  = BACKUP
 #
 # * Query Cache Configuration
 #
-query_cache_limit       = 1M
-query_cache_size        = 16M
+# query_cache_limit       = 1M
+# query_cache_size        = 16M
 #
 # * Logging and Replication
 #
